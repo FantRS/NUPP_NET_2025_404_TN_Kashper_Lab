@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PublicTransit.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08fb12942ea1499ccd282bfbe93cb08a6c891026")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32a1af5491eaa06412810cb062fb83bb754c529a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PublicTransit.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PublicTransit.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
