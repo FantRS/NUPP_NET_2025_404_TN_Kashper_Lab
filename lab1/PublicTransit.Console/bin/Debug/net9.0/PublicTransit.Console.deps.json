@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PublicTransit.Console/1.0.0": {
+        "dependencies": {
+          "PublicTransit.Common": "1.0.0"
+        },
+        "runtime": {
+          "PublicTransit.Console.dll": {}
+        }
+      },
+      "PublicTransit.Common/1.0.0": {
+        "runtime": {
+          "PublicTransit.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PublicTransit.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PublicTransit.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

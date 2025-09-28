@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "PublicTransit.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/PublicTransit.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PublicTransit.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PublicTransit.Common/1.0.0": {
+      "type": "project",
+      "path": "../PublicTransit.Common/PublicTransit.Common.csproj",
+      "msbuildProject": "../PublicTransit.Common/PublicTransit.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "PublicTransit.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/fant/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/fant/VsCode/NUPP_NET_2025_404_TN_Kashper_Lab/lab1/PublicTransit.Console/PublicTransit.Console.csproj",
+      "projectName": "PublicTransit.Console",
+      "projectPath": "/home/fant/VsCode/NUPP_NET_2025_404_TN_Kashper_Lab/lab1/PublicTransit.Console/PublicTransit.Console.csproj",
+      "packagesPath": "/home/fant/.nuget/packages/",
+      "outputPath": "/home/fant/VsCode/NUPP_NET_2025_404_TN_Kashper_Lab/lab1/PublicTransit.Console/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/fant/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "/usr/lib/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/home/fant/VsCode/NUPP_NET_2025_404_TN_Kashper_Lab/lab1/PublicTransit.Common/PublicTransit.Common.csproj": {
+              "projectPath": "/home/fant/VsCode/NUPP_NET_2025_404_TN_Kashper_Lab/lab1/PublicTransit.Common/PublicTransit.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
