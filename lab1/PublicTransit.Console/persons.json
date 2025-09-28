@@ -1,0 +1,38 @@
+{
+  "651d93d4-2438-425b-a90e-187e387a4b0a": {
+    "PersonInfo": {
+      "FirstName": "Arthur",
+      "LastName": "Pendragon",
+      "Salary": 1500
+    },
+    "PersonStats": {
+      "Age": 35,
+      "Health": 130,
+      "Damage": 25
+    }
+  },
+  "02b2b294-29fd-4de3-9025-3ad228a383c9": {
+    "PersonInfo": {
+      "FirstName": "Grog",
+      "LastName": "Strongjaw",
+      "Salary": 950
+    },
+    "PersonStats": {
+      "Age": 30,
+      "Health": 145,
+      "Damage": 20
+    }
+  },
+  "67026b2d-80a1-4a23-a736-1eef4b3a725a": {
+    "PersonInfo": {
+      "FirstName": "Gale",
+      "LastName": "Dekarios",
+      "Salary": 2000
+    },
+    "PersonStats": {
+      "Age": 40,
+      "Health": 30,
+      "Damage": 15
+    }
+  }
+}
